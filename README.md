@@ -1,14 +1,34 @@
-This is a proof of concept for a semantic search engine of audio podcast transcripts, starting with a collection of a16z podcasts.
+# Audio Podcast Semantic Search Engine Proof of Concept
 
-<!-- Make sure that you have conda (python env and package manager) installed -->
+This proof of concept demonstrates a semantic search engine for audio podcast transcripts, starting with a collection of a16z podcasts.
+
+## Prerequisites
+
+Make sure you have conda (Python environment and package manager) installed. If you don't, follow the installation instructions at:
+
 https://docs.conda.io/en/latest/miniconda.html
 
-<!-- Create the conda environment -->
+## Setup
+
+1. Create the conda environment:
 conda env create --name envname --file=environment.yml
 
-<!-- Run Jupyter Notebook, and open up Ecco POC v0.1 in the browser. From terminal type:  -->
+2. Activate the conda environment:
+conda activate envname
+
+Replace `envname` with the name you chose when creating the environment.
+
+3. Run Jupyter Notebook:
 jupyter-notebook
 
-<!-- From there, you can run the code.  You can switch the query in the final cell. -->
+This command will open Jupyter Notebook in your browser.
 
-<!-- You can see some POCs for transcribing using OpenAI's Whisper model -->
+4. Open the `Ecco POC v0.1` notebook in the browser.
+
+## Usage
+
+You can run the code in the `Ecco POC v0.1` notebook. To try different queries, modify the query in the final cell of the notebook.
+
+## Additional Information
+
+You can find some proof of concepts for transcribing audio using OpenAI's Whisper model in the repository.
